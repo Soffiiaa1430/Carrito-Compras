@@ -21,7 +21,7 @@ const products = [
     { id: '20', product: 'Guess' , price: 615000, image: 'images/relojD10-s.png', 'data-category': 'Dama' },
     { id: '21', product: 'Fossil', price: 713000, image: 'images/reloj11-s.png', 'data-category': 'Caballero' },
     { id: '22', product: 'Loix', price: 345000, image: 'images/relojD11-s.png', 'data-category': 'Dama' },
-    { id: '23', product: 'Fossil', price: 785000, image: 'images/reloj12-s.png', 'data-category': 'Caballero' },
+    { id: '23', product: 'Fossil', price: 785000, image: 'images/reloj12-s.png.png', 'data-category': 'Caballero' },
     { id: '24', product: 'Q&Q', price: 235000, image: 'images/relojD12-s.png', 'data-category': 'Dama' },
     { id: '25', product: 'Orinet', price: 187000, image: 'images/reloj13-s.png','data-category': 'Caballero' },
     { id: '26', product: 'Casio', price: 233000, image: 'images/relojD13-s.png', 'data-category': 'Dama' },
