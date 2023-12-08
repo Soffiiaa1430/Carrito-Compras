@@ -270,6 +270,8 @@ a {
 }
 .modal>input{
     width: 10rem;
+    margin: 7px;
+    padding: 3px;
     height: 1.5rem;
     border-radius: 15px;
     background-color: #000000;
@@ -288,8 +290,8 @@ font-size: 1rem;
     width: 12rem;
     height: 2rem;
     border-radius: 15px;
-    background-color: #afa0a0;
-    color: #c7c7c7;
+    background-color: #000000;
+    color: #ffffff;
     font-size: 1rem;
     cursor: pointer;
 }
@@ -312,6 +314,7 @@ font-size: 1rem;
     position: absolute;
     top: 1rem;
     right: 1rem;
+    margin: auto;
 
 }
 
@@ -700,7 +703,7 @@ footer {
     transform: translate(-50%, -50%);
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #000;
+    border: 1px solid #838282;
     z-index: 2;
 }
 
@@ -714,7 +717,7 @@ footer {
 
 /* Estilos para el botón de agregar producto */
 #open-modal {
-    background-color: #4CAF50;
+    background-color: #747775;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -723,5 +726,57 @@ footer {
 }
 
 #open-modal:hover {
-    background-color: #45a049;
+    background-color: #747775;
+}
+
+
+/**/
+
+
+/* Estilos para el carrito */
+.cart-products {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#price-total {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Agrega un poco de estilo para resaltar el botón de abrir el carrito */
+#open-cart {
+    background-color: #c4c7cb;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#open-cart:hover {
+    background-color: #c4c6c8;
 }
